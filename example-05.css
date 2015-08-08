@@ -10,23 +10,43 @@
 	margin: 0 auto;
 }
 
-.header {}
+.header {
+	float: left;
+}
 /* hint! what do you have to add here? */
 
-.logo {}
+.logo {
+	width: 230px;
+	float: left;
+}
 
-.navigation {}
+.navigation {
+	width: 714px;
+	float: left;
+}
 
-.sidebar {}
 
-.main-content {}
-/* hint! you have to contain the floated children elements. */
+.main-content {
+	width: 100%;
+	float: left;
+}
+.sidebar {
+	width: 230px;
+	height: 300px;
+	float: left;
+}
 
 .sub-content {
-	/* hint! */
+	width: 714px;
+	height: 150px;
+	float: left;
 }
 .sub-content-2 {
-	/* hint! */
+	width: 714px;
+	height: 150px;
+	float: left;
 }
 
-.footer {}
+.footer {
+	clear: both;
+}

@@ -6,23 +6,56 @@
 /* Example 12 */
 
 /* To Do List */
-.todolist {}
+.container {
+	width: 50%;
+	min-width: 300px;
+	margin:  10px auto;
+}
+
+.todolist {
+    width: 100%;
+    /* overflow: auto; */
+}
 
 /* Individual Todo */
-.todo {}
+.todo {
+    margin: 0 5%;
+    width: 90%;
+    border-bottom: 1px solid #F1F1F1;
+    overflow: auto;
+    padding: 10px;
+}
 
 
 /* Priority icon dot */
-.icon {}
+.icon {
+	width: 10%;
+	float: left;
+	margin: auto;
+}
 
 /* Info of the todo, title and date */
-.todo-info {}
+.todo-info {
+	width: 80%;
+	float: left;
+}
 
 /* Title */
-.todo-title {}
+.todo-title {
+	font-family: "RobotoDraft","Roboto",sans-serif; 
+}
 
 /* Date */
-.todo-date {}
+.todo-date {
+	font-family: "RobotoDraft","Roboto",sans-serif; 
+	font-weight: 200;
+}
+
+.check{
+	width: 10%;
+	float: left;
+	margin-top: 15px;
+}
 
 /* Checkboxes! */
 input[type=checkbox] {}

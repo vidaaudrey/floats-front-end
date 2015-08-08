@@ -95,9 +95,17 @@ div {
 }
 
 .post_excerpt {
+	display: block;
+	float:  right;
 	background: #708C24;
-	padding: 20px;
-	margin: 0;
+	/* padding: 20px; */
+	/* margin: 0; */
+	/* padding-left: 5%; */
+	width:  75%;
+	padding:  20px;
+	/* height:  100%; */
+	/* margin:  20px; */
+	margin-top: 0;
 }
 
 .widget {

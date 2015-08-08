@@ -7,12 +7,54 @@
 
 .header {}
 
-.main-content {}
-/* hint! */
 
-.post {}
-/* hint! */
 
-.image {}
+html, body {
+	margin: 0;
+}
 
-.post_excerpt {}
+.header {
+	width: 100%;
+	float: left;
+}
+.logo {
+	width: 100px;
+	float: left;
+}
+.navigation{
+	width: 200px;
+	float: right;
+}
+
+
+.main-content {
+	width: 100%;
+	min-height: 300px;
+	float: left;
+}
+
+.sidebar {
+	width: 33%; 
+	min-height: 300px;
+	float: left;
+}
+
+
+
+.post {
+	width: 100%;
+	float: left;
+}
+
+
+.image {
+	width: 25%;
+	float: left;
+	min-height: 200px;
+}
+
+.post_excerpt {
+	width: 65%;
+	float: right;
+	margin-top: 0;
+}
