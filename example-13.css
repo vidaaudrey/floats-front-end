@@ -6,3 +6,52 @@
 /* Example 13 */
 
 /* I'm blank! Write some CSS to style your layout! */
+
+body {
+	margin: 0;
+}
+header{
+	float: left;
+	overflow: auto;
+	width: 100%;
+}
+.logo{
+	width: 30%;
+	float: left;
+}
+nav{
+	min-width: 300px;
+	width: 70%;
+	float: right;
+	background: #f2f2f2;
+	padding: 20px 0;
+	text-align: right;
+}
+nav a {
+	display: inline-block;
+	margin-right:15px;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+	background: #6F3757;
+	overflow: auto;
+}
+.card{
+	width: 31.3%;
+	margin: 1%;
+	background: #E2E2E2;
+	float: left;
+	min-width: 250px;
+	min-height: 250px;
+}
+.card a {
+	display: inline-block;
+}
+
+footer{
+	width: 100%;
+	background: #DADADA;
+	text-align: center;
+	padding: 20px;
+}
